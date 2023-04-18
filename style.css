@@ -1,63 +1,55 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 ul, ol {
   list-style-type: circle;
 }
-
 p {
   line-height: 0;
 }
-
 .homepage-body {
   background-color: orange;
   margin: 0;
   padding: 0;
 }
-
 .homepage-title {
   padding-left: 25px;
   padding-top: 30px;
 }
-
 .homepage-list {
   padding-left: 90px;
   list-style-type: none;
   line-height: 35px;
 }
-
 .homepage-item {
   font-size: 24px;
   font-weight: bold;
 }
-
 .pretty-header {
   background-image: url("images/homepage-header_bar.jpg");
   background-repeat: repeat-x;
   width: 100%;
   margin: 0;
 }
-
 .recipe-body {
   background-color: lightcoral;
-  margin-top: 10px;
-  margin-left: 30px;
+  margin: 10px 30px;
 }
-
 .recipe-image {
   padding-top: 15px;
 }
-
 .recipe-section-separator {
   border-top: 1px solid #ccc;
-  margin-left: 15px;
-  margin-top: 40px;
-  line-height: 20px;
+  margin: 40px 15px;
 }
-
 .recipe-section-separator h2::before, .recipe-section-separator h3::before {
   content: "▿";
   color: #333;
   padding-right: 10px;
 }
-
 .recipe-section-separator h3::before {
   margin-left: 20px;
 }
